@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Packt.Shared.AutoGen
 {
-    [Index(nameof(CategoryName), Name = "CategoryName")]
+    [Index(nameof(CategoryName), Name = "CategoryName ")]
     public partial class Category
     {
         public Category()
