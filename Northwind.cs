@@ -24,7 +24,6 @@ namespace Packt.Shared
       ModelBuilder modelBuilder)
     {
       // example of using Fluent API instead of attributes
-      // to limit the length of a category name to under 15
       modelBuilder.Entity<Category>()
         .Property(category => category.CategoryName)
         .IsRequired() // NOT NULL
