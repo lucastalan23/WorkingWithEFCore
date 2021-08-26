@@ -20,7 +20,7 @@ namespace Packt.Shared
     public bool Discontinued { get; set; }
 
     // these two define the foreign key relationship
-    // to the Categories table
+    // to the Categories table.
     public int CategoryID { get; set; }
 
     public virtual Category Category { get; set; }
