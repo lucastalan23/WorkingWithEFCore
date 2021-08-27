@@ -23,6 +23,10 @@ namespace Packt.Shared
     protected override void OnModelCreating(
       ModelBuilder modelBuilder)
     {
+<<<<<<< HEAD
+=======
+      // example of using Fluent API instead of attributes
+>>>>>>> 7323235c1afce145587432f4c48f5f8e805149a2
       modelBuilder.Entity<Category>()
         .Property(category => category.CategoryName)
         .IsRequired() // NOT NULL

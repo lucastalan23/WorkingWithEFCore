@@ -40,7 +40,7 @@ namespace Packt.Shared.AutoGen
         public byte[] Discontinued { get; set; }
 
         [ForeignKey(nameof(CategoryId))]
-        [InverseProperty("Products")]
+        [InverseProperty("Products ")]
         public virtual Category Category { get; set; }
     }
 }

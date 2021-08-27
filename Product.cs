@@ -19,8 +19,13 @@ namespace Packt.Shared
 
     public bool Discontinued { get; set; }
 
+<<<<<<< HEAD
     // define a relaçao da chave primária
     // para a tabela de categorias
+=======
+    // these two define the foreign key relationship
+    // to the Categories table.
+>>>>>>> 7323235c1afce145587432f4c48f5f8e805149a2
     public int CategoryID { get; set; }
 
     public virtual Category Category { get; set; }

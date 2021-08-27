@@ -52,7 +52,7 @@ namespace Packt.Shared.AutoGen
 
         entity.Property(e => e.CategoryId)
                   .HasColumnName("CategoryID")
-                  .HasAnnotation("Relational:ColumnType", "int");
+                  .HasAnnotation("Relational:ColumnType", "int ");
 
         entity.Property(e => e.Discontinued)
                   .HasDefaultValueSql("0")
